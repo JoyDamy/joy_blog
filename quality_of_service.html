@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accueil</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<!-- Navbar begin -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12" style="background-color:  #000033;">
+					<a href="">Accueil</a>
+					<a href="dashboard.html"> Dashboard</a>
+					<a href="blog.html">Blog</a>
+					<a href="contact.html">Contact</a>
+					<h4 class="style">TELECOM BLOG</h4>
+			</div>
+		</div>
+	</div>
+	<!-- navbar ending -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2">
+				<h4 style="color: white;"> Article</h4>
+				<ul>
+					<li style="color: white;">La Télécommunication</li>
+					<li style="color:white;">La Cyber Securité</li>
+					<li style="color:white;">Quality Of Service</li>
+					<li style="color: white;">Réseau 5G</li>
+					<li style="color: white;">Internet Of Things(IoT)</li>
+				</ul>
+			
+
+			</div>
+
+			<div class="col-md-8" style="background-color: white;">
+				<h2><strong>QoS</strong></h2>
+				<p>23/07/2020 à 15h30</p>
+				<img src="telecom_4.png" width="600" height="400">
+				<p>Le terme QoS (acronyme de « Quality of Service », en français « Qualité de Service ») désigne la capacité à fournir un service (notamment un support de communication) conforme à des exigences en matière de temps de réponse et de bande passante.
+
+
+
+Appliquée aux réseaux à commutation de paquets (réseaux basés sur l'utilisation de routeurs) la QoS désigne l'aptitude à pouvoir garantir un niveau acceptable de perte de paquets, défini contractuellement, pour un usage donné (voix sur IP, vidéo-conférence, etc.).
+
+
+
+
+En effet, contrairement aux réseaux à commutation de circuits, tels que le réseaux téléphonique commuté, où un circuit de communication est dédié pendant toute la durée de la communication, il est impossible sur internet de prédire le chemin emprunté par les différents paquets.
+
+
+
+Ainsi, rien ne garantit qu'une communication nécessitant une régularité du débit pourra avoir lieu sans encombre. C'est pourquoi il existe des mécanismes, dits mécanismes de QoS, permettant de différencier les différents flux réseau et réserver une partie de la bande passante pour ceux nécessitant un service continu, sans coupures.<br>
+
+<strong>Niveaux de service</strong><br>
+Le terme « niveau de service » (en anglais Service level) définit le niveau d'exigence pour la capacité d'un réseau à fournir un service point à point ou de bout en bout avec un traffic donné. On définit généralement trois niveaux de QoS :
+Meilleur effort (en anglais best effort), ne fournissant aucune différenciation entre plusieurs flux réseaux et ne permettant aucune garantie. Ce niveau de service est ainsi parfois appelé lack of QoS.
+Service différencié (en anglais differenciated service ou soft QoS), permettant de définir des niveaux de priorité aux différents flux réseau sans toutefois fournir une garantie stricte.
+Service garanti (en anglais guaranteed service ou hard QoS), consistant à réserver des ressources réseau pour certains types de flux. Le principal mécanisme utilisé pour obtenir un tel niveau de service est RSVP (Resource reSerVation Protocol, traduisez Protocole de réservation de ressources).<br>
+<strong>Critères de qualité de service</strong><br>
+Les principaux critères permettant d'apprécier la qualité de service sont les suivants :
+
+Débit (en anglais bandwidth), parfois appelé bande passante par abus de langage, il définit le volume maximal d'information (bits) par unité de temps.
+Gigue (en anglais jitter) : elle représente la fluctuation du signal numérique, dans le temps ou en phase.
+Latence, délai ou temps de réponse (en anglais delay) : elle caractérise le retard entre l'émission et la réception d'un paquet.
+Perte de paquet (en anglais packet loss): elle correspond à la non-délivrance d'un paquet de données, la plupart du temps dûe à un encombrement du réseau.
+Déséquencement (en anglais desequencing) : il s'agit d'une modification de l'ordre d'arrivée des paquets.</p>
+				<p><em>Joy Clotaire</em></p>
+
+
+			</div>
+			<div class="col-md-2">
+				<label>Auteur</label><br>
+				<!-- <input type="text" name="" placeholder="Votre Pseudo"><br> -->
+				 <input type="text" class="form-control" placeholder="votre Nom" >
+				<label>Titre</label><br>
+				 <input type="text" class="form-control"  placeholder="Votre Titre">
+				<label>Date</label><br>
+				<!-- <input type="Date" name="" ><br> -->
+				<input class="form-control" type="datetime-local">
+				<label>Contenu</label><br>
+				<!-- <textarea class="area_style" type="text-area" name="" placeholder="Votre Contenu"></textarea> -->
+				<textarea class="form-control" rows="5" placeholder="Votre Contenu"  style="width: 240px; height: 400px;"></textarea>
+				<button type="button" class="btn btn-primary">Envoyer</button> 
+			</div>
+		</div>
+	</div>	
+	<!-- contenu ending -->
+	<!-- footer begin -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12" style="background-color: lightblue">
+				<p>DAMY Joyot Mamet Clotaire</p>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
